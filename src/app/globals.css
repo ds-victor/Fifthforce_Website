@@ -223,15 +223,6 @@ nav {
   letter-spacing: -0.5px;
 }
 
-/* The wrapper for visibility */
-.logo-wrapper {
-  background-color: rgba(255, 255, 255, 0.95);
-  border-radius: 50%;
-  padding: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .nav-links {
   display: flex;

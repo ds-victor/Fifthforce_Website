@@ -7,9 +7,7 @@ export default function Home() {
       <nav>
         <div className="container nav-container">
           <Link href="/" className="logo-container">
-            <div className="logo-wrapper">
-              <Image src="/FifthForce.png" alt="Fifth Force Logo" width={200} height={100} style={{ objectFit: 'contain', width: 'auto', height: '45px' }} priority />
-            </div>
+            <Image src="/FifthForce.png" alt="Fifth Force Logo" width={200} height={100} style={{ objectFit: 'contain', width: 'auto', height: '45px' }} priority />
             <span>Fifth Force</span>
           </Link>
           <div className="nav-links">
@@ -91,9 +89,7 @@ export default function Home() {
 
       <footer>
         <div className="container footer-content">
-          <div className="logo-wrapper" style={{ padding: '8px' }}>
-            <Image src="/FifthForce.png" alt="Fifth Force Logo" width={200} height={100} style={{ objectFit: 'contain', width: 'auto', height: '60px' }} />
-          </div>
+          <Image src="/FifthForce.png" alt="Fifth Force Logo" width={200} height={100} style={{ objectFit: 'contain', width: 'auto', height: '60px' }} />
           <div>
             <strong>Fifth Force</strong><br/>
             Kolkata, West Bengal, India, Pin - 700075<br/>
